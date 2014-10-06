@@ -17,6 +17,7 @@ public enum Candidate
     NATHAN("Nathan", "Langton"),
     NICK("Nick", "MacIsaac"),
     RANDY("Randy", "Howlett"),
+    RONAN("Ronan", "O'Driscoll"),
     YASIR("Yasir", "Faruqi");
     private final String lastName;
     private final String firstName;
