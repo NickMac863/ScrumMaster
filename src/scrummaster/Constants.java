@@ -8,7 +8,7 @@ public class Constants {
 
     public static final double BASE_PROBABILITY = 100.0;
     public static final double PREVIOUS_MASTER_BASE_PROBABILITY = 20.0;
-    public static final long TOTAL_DURATION_MS = 15000;
+    public static final long TOTAL_DURATION_MS = 10000;
     public static final long START_INTERVAL_MS = 200;
     public static final long MAX_STEP_MS = 50;
     public static final boolean DEBUG = false;
