@@ -638,7 +638,7 @@
             <Component class="javax.swing.JLabel" name="jLabel15">
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="Mory"/>
+                <Property name="text" type="java.lang.String" value="Mory - RIP"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel16">

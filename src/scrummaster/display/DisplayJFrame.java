@@ -344,7 +344,7 @@ public class DisplayJFrame extends javax.swing.JFrame
         MoryPanel.setPreferredSize(new java.awt.Dimension(181, 140));
 
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel15.setText("Mory");
+        jLabel15.setText("Mory - RIP");
 
         jLabel16.setBackground(new java.awt.Color(0, 255, 255));
         jLabel16.setFont(new java.awt.Font("Cambria", 0, 12)); // NOI18N
