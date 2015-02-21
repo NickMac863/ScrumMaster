@@ -14,8 +14,8 @@ import scrummaster.History;
 public class ProbabilityGenerator
 {
     
-    private Map<Candidate, Double> probabilityMap;
-    private History history;
+    private final Map<Candidate, Double> probabilityMap;
+    private final History history;
     
     public ProbabilityGenerator(History history)
     {
@@ -30,7 +30,9 @@ public class ProbabilityGenerator
         final double totalProducts = this.sumOfIterationsProduct();
         for (Candidate candidate : Candidate.values())
         {
-            if (!candidate.equals(history.getLatestCandidate()) && !candidate.equals(history.getSecondLastCandidate()))
+            final boolean wasLatest = candidate.equals(history.getLatestCandidate());
+            final boolean wasSecondLatest = candidate.equals(history.getSecondLastCandidate());
+            if (!wasLatest && !wasSecondLatest && candidate != Candidate.MORY)
             {
                 List<Integer> iterations = history.getIterationsForCandidate(
                         candidate);
